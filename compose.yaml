@@ -1,0 +1,6 @@
+services:
+  website:
+    build: .
+    container_name: cicd-compose-test
+    ports:
+      - "8093:80"
